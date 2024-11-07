@@ -2,7 +2,7 @@ import torch
 import pickle
 import os
 import dgl
-from src.rec_system.method.model_recommend import PinSAGEModel
+from model_recommend import PinSAGEModel
 
 
 def load_model_and_embeddings(model_path, item_emb_path, graph_path):

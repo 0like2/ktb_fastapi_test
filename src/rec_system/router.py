@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from src.rec_system.schemas import CreatorRecommendRequest, ItemRecommendRequest
-from src.rec_system.service import random_for_item, random_for_creator
+from schemas import CreatorRecommendRequest, ItemRecommendRequest
+from ervice import random_for_item, random_for_creator
 
 router = APIRouter()
 
